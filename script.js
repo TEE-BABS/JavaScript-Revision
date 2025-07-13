@@ -208,40 +208,56 @@ function changeTheme() {
 // ARRAY
 //Array is the list of item. the symbols is [],
 
-// let x = [5,'milk', 'bread', true]
+ //let x = [5,'milk', 'bread', true]
 // //to add to x list without showing it on this page other than console, we can introduce 'x.push'to push to the last list. To remove from last we have "x.pop"
 // //These are array FUNCTIONS
 
-// x.push('orange','mango','apple'); //adding to last
+ //x.push('orange','mango','apple'); //adding to last
+//  console.log(x);
+ 
 
-// x.pop();// to remove from last
-// x.shift();//Remove element from start
-// x.unshift('cashew'); //Add Element from start
-// x.splice(1,1); //To remove a particular item "bread"for example "2" is the index of bread.
+ //x.pop();// to remove from last
+ //console.log(x);
+ 
+ //x.shift();//Remove element from start
+ //console.log(x);
+ 
+ //x.unshift('cashew'); //Add Element from start
+ //console.log(x);
+ 
+ //x.splice(2,1); //To remove a particular item "bread"for example "2" is the index of bread, and '1' is how many item i want to remove after bread. because i want to remove '1'item after bread that is why i write '1' but if i want to remove "2" items after 'bread' i will write '2'and it will be written like this (2,2) i.e 2 = index bread
+ //        2 = how many items i want to remove after the index of bread.
+  //console.log(x);
+ 
 
-// x.splice(1,0,'yellow', 10);//it can also replace them. for example let replace them with 'yellow' and '10'.
+ //x.splice(1,0,"blue",10,"false");//it can also replace them. for example let replace them with 'yellow' and '10'.
+ //in the above x.splice, 1 = index number that where we want the changes to start from.
+ // 0 = Because it is 0 it wont remove any item or replace it, but if its 1 and above, it will remove the number of item you write in the parenthesis ().
+ //i.e x.splice(1,3, 'blue',10,'false'); it will slot ("blue",10,'false' and remove milk, bread and true) because i write 3 items inside the parethesis.
+ //console.log(x);
+ 
 
 
 
-// console.log(x);
+ //console.log(x);
 
-// console.log(x[0]);
-// console.log(x[3]);
+ //console.log(x[0]);
+ //console.log(x[3]);
 
-// let x = [5,'milk', 'bread', true]
-// let sliced = x.slice(0,3);
-// // let sliced = x.slice(2);
-// console.log(sliced);
+ //let x = [5,'milk', 'bread', true]
+ //let sliced = x.slice(0,4);
+  //let sliced = x.slice(2);
+ //console.log(sliced);
 
 //where the 'spliced'is Applicable
 
 //2 dimentional array
-// let task = [];
+ //let task = [];
 
-// task.push([1,'Do Homework','09:00','10:00']);
+ //task.push([1,'Do Homework','09:00','10:00']);
 
-// task.push([2,'send report to manager','10:00','10:30'],);
-// console.log(task);
+ //task.push([2,'send report to manager','10:00','10:30'],);
+ //console.log(task);
 
 
 //LOOPS
