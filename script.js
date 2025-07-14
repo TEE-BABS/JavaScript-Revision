@@ -244,10 +244,10 @@ function changeTheme() {
  //console.log(x[0]);
  //console.log(x[3]);
 
- //let x = [5,'milk', 'bread', true]
- //let sliced = x.slice(0,4);
-  //let sliced = x.slice(2);
- //console.log(sliced);
+ let x = [5,'milk', 'bread', true, false]
+ let sliced = x.slice(1,3);//(1= is the index where you want the counting to start from. 3 = This is the natural list of the number you want to show in the parenthesis. but NOTE : the number less than the index choosen will not reflect it will only make the parenthesis empty)
+  //let slice = x.slice(2);
+ console.log(sliced);
 
 //where the 'spliced'is Applicable
 
