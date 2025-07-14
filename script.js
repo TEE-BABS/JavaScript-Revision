@@ -267,25 +267,25 @@ function changeTheme() {
 
 //FOR LOOP
 
-// for(let i = 0; i < 10; i++){
-//     // if(i == 5){
-//     //     break
-//     //  } // if i want break it before number 5 i will put this code before the console.log
-
-//     console.log(i);
-
+ //for(let i = 0; i < 10; i++){
+      //if(i == 5){
+         // break
+     // } // if i want break it before number 5 i will put this code before the console.log
+    
+     //console.log(i);
+    //}
 //     // if(i == 5){
 //     //     break
 //     // } //this is if i want to break the list
 // }
 // //note: i++ is thesame as i = i + 1
 
-// for(let i = 30; i >= 20; i--){
-//     console.log(i);
-// }
+//for(let i = 30; i >= 20; i--){
+     //console.log(i);
+ //}
 
-// for (let i = 10; i = 20; i = i = + 2){
-//     console.log();
+ //for (let i = 10; i <= 20;  i = i + 2){
+    // console.log(i);
     
 // }
 
